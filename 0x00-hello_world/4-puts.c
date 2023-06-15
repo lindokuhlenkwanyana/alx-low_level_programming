@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main: A programm having a push function that outputs a line
+ * main : A program having a push function that outputs a line
  * Return: 0
  */
 int main(void)
 {
-printf("\"with proper grammar, but the outcome is a piece of art");
+puts("\"Programming is like building a multilingual puzzle);
 return (0);
 }
