@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main : A program that uses the print function to print a line
+ * main - Entry point
  * Return: 0
  */
 int main(void)
