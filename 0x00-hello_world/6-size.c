@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that pints out all the data types and their sizes
+ * main - A program that prints out all the data types and their sizes
  * Return: 0
  */
 int main(void)
