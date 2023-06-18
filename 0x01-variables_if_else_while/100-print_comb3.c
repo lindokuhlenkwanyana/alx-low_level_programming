@@ -4,14 +4,14 @@
  * main - Prints all possible combinations of two different digits,
  *        in ascending order, separated by a comma followed by a space.
  *
- * Return: 0.
+ * Return: 0
  */
 int main(void)
 {
 int digit1, digit2;
 
 for (digit1 = 0; digit1 < 9; digit1++)
-}
+{
 for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 {
 putchar((digit1 % 10) + '0');
