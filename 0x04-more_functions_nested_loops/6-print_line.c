@@ -2,7 +2,7 @@
 
 /**
  * print_line - print a straight line
- * 0n: is the number of times the _ character should be printed
+ * @n: is the number of times the _ character should be printed
  */
 
 void print_line(int n)
