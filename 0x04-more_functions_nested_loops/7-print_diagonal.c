@@ -7,14 +7,14 @@
 
 void print_diagonal(int n)
 {
-int lIne, diaGonaln;
+int lIne, diaGonal;
 if (n <= 0)
 _putchar('\n');
 else
 {
 for (lIne = 1; lIne <= n; lIne++)
 {
-for (diaGonaln = 1; diaGonaln <= lIne; diaGonaln++)
+for (diaGonal = 1; diaGonal <= n; diaGonal++)
 _putchar(' ');
 _putchar(92); /* is equal to '/' char*/
 _putchar('\n');
