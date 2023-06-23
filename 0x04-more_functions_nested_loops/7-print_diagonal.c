@@ -15,7 +15,7 @@ else
 for (lIne = 1; lIne <= n; lIne++)
 {
 for (diaGonal = 1; diaGonal <= lIne; diaGonal++)
-_putchar('_');
+_putchar(' ');
 _putchar(92);
 _putchar('\n');
 }
