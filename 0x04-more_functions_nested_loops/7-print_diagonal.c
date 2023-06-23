@@ -16,7 +16,7 @@ for (lIne = 1; lIne <= n; lIne++)
 {
 for (diaGonal = 1; diaGonal <= lIne; diaGonal++)
 _putchar(' ');
-_putchar(92);
+_putchar(92); /* is equal to '/' char*/
 _putchar('\n');
 }
 }
