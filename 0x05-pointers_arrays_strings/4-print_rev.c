@@ -19,7 +19,7 @@ s++;
 s--;
 for (f = prin; f > 0; f--)
 {
-putchar(*s);
+_putchar(*s);
 s--;
 }
 _putchar('\n');
