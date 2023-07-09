@@ -8,8 +8,8 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int hi = 0;
-	int hello = n;
+int hi = 0;
+int hello = n;
 for (; hi < hello; hi++)
 {
 dest[hi] = src[hi];
