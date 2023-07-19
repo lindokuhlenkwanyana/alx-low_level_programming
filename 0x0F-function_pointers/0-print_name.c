@@ -7,7 +7,7 @@
  * Return: will be 0
  */
 void print_name(char *name, void (*f)(char *))
-{ 
+{
 printf("%s\n", name);
-(*f)(name)
+(*f)(name);
 }
