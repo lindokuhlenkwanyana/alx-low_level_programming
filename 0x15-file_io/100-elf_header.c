@@ -37,9 +37,7 @@ dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 exit(98);
 }
 }
-}
-
-/**
+}/**
  * print_magic - It will be Printing the magic numbers
  * @e_ident: Pointer to an array containing the ELF
  * Description: The magic numbers
@@ -81,7 +79,6 @@ default:
 printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 }
 }
-
 /**
  * print_data - will be printing the data of an ELF h
  * @e_ident: Tthe pointer to an array containing the ELF
@@ -104,7 +101,6 @@ default:
 printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 }
 }
-
 /**
  * print_version - will be printing the version of an ELF h
  * @e_ident: The pointer to an array containing the ELF
@@ -123,8 +119,6 @@ printf("\n");
 break;
 }
 }
-
-
 /**
  * print_osabi - will be printing the OS/ABI of an ELF
  * @e_ident: the pointer to an array containing the ELF
@@ -168,7 +162,6 @@ default:
 printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 }
 }
-
 /**
  * print_abi - will be printing the ABI
  * @e_ident: The pointer to an array containing the ELF
@@ -210,7 +203,6 @@ default:
 printf("<unknown: %x>\n", e_type);
 }
 }
-
 /**
  * print_entry - will be printing the entry point of an ELF
  * @e_entry: address of ELF entry point.
@@ -245,7 +237,6 @@ dprintf(STDERR_FILENO,
 exit(98);
 }
 }
-
 /**
  * main - we will be displaying the information
  * contained in the ELF header.
@@ -293,4 +284,3 @@ free(header);
 close_elf(lindo);
 return (0);
 }
-
